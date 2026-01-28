@@ -22,23 +22,3 @@ Or use the UI: type `/plugin`, go to **Discover**, and browse available plugins.
 |--------|-------------|
 | [rewst-openapi](https://github.com/tim4net/claude-rewst-integration-factory) | Create, validate, and fix OpenAPI specs for Rewst Custom Integration v2 |
 
-## For Plugin Developers
-
-To add a plugin to this marketplace, add an entry to `.claude-plugin/marketplace.json`:
-
-```json
-{
-  "name": "your-plugin-name",
-  "source": {
-    "source": "github",
-    "repo": "owner/repo-name"
-  },
-  "description": "What your plugin does",
-  "version": "1.0.0",
-  "author": {
-    "name": "Your Name"
-  }
-}
-```
-
-The plugin repo must have a valid `.claude-plugin/plugin.json` at its root.
