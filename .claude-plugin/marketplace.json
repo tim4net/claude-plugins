@@ -1,0 +1,26 @@
+{
+  "name": "tim4net",
+  "owner": {
+    "name": "Tim"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by tim4net",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "rewst-openapi",
+      "source": {
+        "source": "github",
+        "repo": "tim4net/claude-rewst-integration-factory"
+      },
+      "description": "Create, validate, and fix OpenAPI specs for Rewst Custom Integration v2",
+      "version": "1.1.0",
+      "author": {
+        "name": "Tim"
+      },
+      "license": "MIT",
+      "tags": ["rewst", "openapi", "api", "integration"]
+    }
+  ]
+}
