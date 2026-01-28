@@ -7,7 +7,7 @@ A marketplace of Claude Code plugins.
 In Claude Code, add this marketplace:
 
 ```
-/plugin marketplace add tim4net/tim4net
+/plugin marketplace add tim4net/claude-plugins
 ```
 
 Then browse and install plugins:
